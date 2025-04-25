@@ -20,8 +20,8 @@ public class ServicioEmailGmail : IServicioEmail
 
     public async Task Enviar(ContactoViewModel contacto)
     {
-        var emailEmisor = _configuration.GetValue<string>("CONFIGURACIONES_EMAIL:EMAIL");
-        var password = _configuration.GetValue<string>("CONFIGURACIONES_EMAIL:PASSWORD");
+        var emailEmisor = _configuration.GetValue<string>("CONFIGURACIONES_EMAIL_EMAIL");
+        var password = _configuration.GetValue<string>("CONFIGURACIONES_EMAIL_PASSWORD");
         var host = _configuration.GetValue<string>("CONFIGURACIONES_EMAIL:HOST");
         var port = _configuration.GetValue<int>("CONFIGURACIONES_EMAIL:PORT");
         

@@ -1,0 +1,19 @@
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+@{
+    ViewData["Title"] = "Gracias";
+}
+
+<section class="agradecimiento-section d-flex justify-content-center align-items-center text-center">
+    <div class="container py-5">
+        <div class="bg-glass p-5 rounded-4 shadow animate__animated animate__fadeInDown" style="max-width: 600px; margin: 0 auto;">
+            <div class="mb-4">
+                <i class="bi bi-hand-thumbs-up-fill fs-1 text-primary"></i>
+            </div>
+            <h1 class="display-5 fw-bold text-primary">@Localizer["graciasPorMensaje"]</h1>
+            <p class="lead text-secondary mt-3">@Localizer["mePondreEnContacto"]</p>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-primary mt-4 px-4 py-2">@Localizer["volverInicio"]</a>
+        </div>
+    </div>
+</section>

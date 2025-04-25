@@ -1,0 +1,92 @@
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+@{
+    ViewData["Title"] = "Contacto";
+}
+
+<section class="proyectos-section position-relative overflow-hidden">
+    <div class="animated-background"></div>
+    <div class="animated-balls-container">
+        <div class="ball1 ball"></div>
+        <div class="ball2 ball"></div>
+        <div class="ball3 ball"></div>
+        <div class="ball4 ball"></div>
+        <div class="ball5 ball"></div>
+        <div class="ball6 ball"></div>
+        <div class="ball7 ball"></div>
+        <div class="ball8 ball"></div>
+    </div>
+    <section class="contact-section py-5 position-relative" style="z-index: 99;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold text-primary animate__animated animate__fadeInDown">@Localizer["hablamos?"]</h1>
+                <p class="lead text-secondary animate__animated animate__fadeIn">
+                    @Localizer["completaElFormulario"]
+                </p>
+            </div>
+
+            <div class="bg-glass p-4 rounded-4 shadow mx-auto" style="max-width: 700px;">
+                <form asp-controller="Home" asp-action="Contacto">
+                    <!-- Campo Nombre -->
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">@Localizer["nombre"]</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-person-fill text-primary"></i></span>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="@Localizer["tuNombre"]" required />
+                        </div>
+                    </div>
+
+                    <!-- Campo Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-envelope-fill text-primary"></i></span>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@ejemplo.com" required/>
+                        </div>
+                    </div>
+
+                    <!-- Campo Mensaje -->
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">@Localizer["mensaje"]</label>
+                        <div class="input-group">
+                            <span class="input-group-text align-top"><i class="bi bi-chat-dots-fill text-primary"></i></span>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="@Localizer["escribiMensaje"]" required ></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Botón -->
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-primary px-4 py-2">@Localizer["enviar"]</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+
+
+
+
+
+
+
+@* <h1>Formulario de contacto</h1> *@
+@* *@
+@* <form asp-controller="Home" asp-action="Contacto"> *@
+@*     <div class="mb-3"> *@
+@*         <label for="nombre" class="form-label">Nombre</label> *@
+@*         <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej: Pietro" /> *@
+@*     </div> *@
+@*     <div class="mb-3"> *@
+@*         <label for="email" class="form-label">Email</label> *@
+@*         <input type="email" class="form-control" id="email" name="email" placeholder="Ej: ejemplo@ejemplo.com" /> *@
+@*     </div> *@
+@*     <div class="mb-3"> *@
+@*         <label for="mensaje" class="form-label">Mensaje</label> *@
+@*         <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea> *@
+@*     </div> *@
+@*     <button type="submit" class="btn btn-primary">Enviar</button> *@
+@* </form> *@

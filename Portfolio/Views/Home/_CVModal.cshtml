@@ -1,0 +1,30 @@
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+
+
+<div class="modal fade animate__animated animate__fadeInDown" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white border-0 rounded-4 shadow-lg px-4 py-5" style="min-width: 350px; max-width: 450px;">
+            <div class="text-center mb-4">
+                <i class="bi bi-cloud-download-fill display-1 text-primary mb-3"></i>
+                <h5 class="modal-title fs-4 fw-bold" id="cvModalLabel">@Localizer["seleccionIdioma"]</h5>
+            </div>
+            <div class="modal-body px-0">
+                <div class="d-flex flex-column gap-3 text-center">
+                    <a href="~/cv/Angelo Marangon - CV Developer Full-Stack ES.pdf" class="btn btn-outline-light py-3 fs-5 rounded-3 shadow-sm" download>
+                        <i class="bi bi-file-earmark me-2"></i> Español
+                    </a>
+                    <a href="~/cv/Angelo Marangon - CV Developer Full-Stack EN.pdf" class="btn btn-outline-light py-3 fs-5 rounded-3 shadow-sm" download>
+                        <i class="bi bi-file-earmark me-2"></i> English
+                    </a>
+                    <a href="~/cv/Angelo Marangon - CV Developer Full-Stack IT.pdf" class="btn btn-outline-light py-3 fs-5 rounded-3 shadow-sm" download>
+                        <i class="bi bi-file-earmark me-2"></i> Italiano
+                    </a>
+                </div>
+            </div>
+            <div class="modal-footer border-0 justify-content-center mt-4">
+                <button type="button" class="btn btn-sm btn-outline-light px-4 text-capitalize" data-bs-dismiss="modal">@Localizer["cerrar"]</button>
+            </div>
+        </div>
+    </div>
+</div>

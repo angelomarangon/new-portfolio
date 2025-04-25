@@ -1,0 +1,37 @@
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+
+<div class="d-flex flex-column align-items-center text-center"
+     style="background-image: url('./img/ibm-wallpaper.jpg'); background-size: cover; background-position: center; padding: 50px 0 200px; margin: 0">
+    <h1 class="display-4 text-light animate__animated animate__fadeInDown">Angelo Marangon</h1>
+    <h2 class="text-light animate__animated animate__fadeIn animate__delay-0-75s">@Localizer["tituloPrincipal"]</h2>
+
+    <img
+        id="foto"
+        src="~/img/IMG_5495.jpg"
+        alt="Foto profesional de Angelo Marangon"
+        class="animate__animated animate__fadeInUp animate__delay-1-2s"
+    />
+
+    <div class="d-flex flex-column align-items-center gap-4 mt-4">
+        <a class="btn btn-outline-light btn-xl custom-btn-hero animate__animated animate__fadeInUp animate__delay-2s"
+           href="#welcome">
+            @Localizer["bienvenido"]
+        </a>
+        <a class="btn btn-outline-light btn-xl custom-btn-hero animate__animated animate__fadeInUp animate__delay-2-5s"
+           href="#" data-bs-toggle="modal" data-bs-target="#cvModal">
+            <i class="bi bi-download me-2"></i>@Localizer["descargaCv"]
+        </a>
+    </div>
+</div>
+
+<div id="welcome" class="row justify-content-center text-center bg-primary">
+    <div class="col col-md-7 seccion-bienvenida">
+        <h1 id="typewriter-text" class="typewriter">@Localizer["tituloBienvenida"]</h1>
+        <p>
+            @Localizer["subtituloBienvenida"]
+        </p>
+    </div>
+</div>
+

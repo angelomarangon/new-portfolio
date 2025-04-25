@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/obj/Debug/net9.0/scopedcss/projectbundle/Portfolio.bundle.scp.css",
+      "PackagePath": "staticwebassets/Portfolio.qlwnfnzgr1.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/css/custom.css",
+      "PackagePath": "staticwebassets/css/custom.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/cv/Angelo Marangon - CV Developer Full-Stack EN.pdf",
+      "PackagePath": "staticwebassets/cv/Angelo Marangon - CV Developer Full-Stack EN.pdf"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/cv/Angelo Marangon - CV Developer Full-Stack ES.pdf",
+      "PackagePath": "staticwebassets/cv/Angelo Marangon - CV Developer Full-Stack ES.pdf"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/cv/Angelo Marangon - CV Developer Full-Stack IT.pdf",
+      "PackagePath": "staticwebassets/cv/Angelo Marangon - CV Developer Full-Stack IT.pdf"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/about.txt",
+      "PackagePath": "staticwebassets/favicon_/about.txt"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/android-chrome-192x192.png",
+      "PackagePath": "staticwebassets/favicon_/android-chrome-192x192.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/android-chrome-512x512.png",
+      "PackagePath": "staticwebassets/favicon_/android-chrome-512x512.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/favicon_/apple-touch-icon.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/favicon-16x16.png",
+      "PackagePath": "staticwebassets/favicon_/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/favicon-32x32.png",
+      "PackagePath": "staticwebassets/favicon_/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/favicon.ico",
+      "PackagePath": "staticwebassets/favicon_/favicon.ico"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_/site.webmanifest",
+      "PackagePath": "staticwebassets/favicon_/site.webmanifest"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/about.txt",
+      "PackagePath": "staticwebassets/favicon_io/about.txt"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/android-chrome-192x192.png",
+      "PackagePath": "staticwebassets/favicon_io/android-chrome-192x192.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/android-chrome-512x512.png",
+      "PackagePath": "staticwebassets/favicon_io/android-chrome-512x512.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/favicon_io/apple-touch-icon.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/favicon-16x16.png",
+      "PackagePath": "staticwebassets/favicon_io/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/favicon-32x32.png",
+      "PackagePath": "staticwebassets/favicon_io/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/favicon.ico",
+      "PackagePath": "staticwebassets/favicon_io/favicon.ico"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/favicon_io/site.webmanifest",
+      "PackagePath": "staticwebassets/favicon_io/site.webmanifest"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/1111946.jpg",
+      "PackagePath": "staticwebassets/img/1111946.jpg"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/164645.jpg",
+      "PackagePath": "staticwebassets/img/164645.jpg"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/430915.jpg",
+      "PackagePath": "staticwebassets/img/430915.jpg"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/IMG_5495.jpg",
+      "PackagePath": "staticwebassets/img/IMG_5495.jpg"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/anmamedical-calendar.png",
+      "PackagePath": "staticwebassets/img/anmamedical-calendar.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/anmamedical-login.png",
+      "PackagePath": "staticwebassets/img/anmamedical-login.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/anmamedical-miperfil.png",
+      "PackagePath": "staticwebassets/img/anmamedical-miperfil.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/anmamedical-vistageneral.png",
+      "PackagePath": "staticwebassets/img/anmamedical-vistageneral.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/cv-1.png",
+      "PackagePath": "staticwebassets/img/cv-1.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/cv-2.png",
+      "PackagePath": "staticwebassets/img/cv-2.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/cv-3.png",
+      "PackagePath": "staticwebassets/img/cv-3.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/gamer-1.png",
+      "PackagePath": "staticwebassets/img/gamer-1.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/gamer-2.png",
+      "PackagePath": "staticwebassets/img/gamer-2.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/ibm-wallpaper.jpg",
+      "PackagePath": "staticwebassets/img/ibm-wallpaper.jpg"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/portfolio.png",
+      "PackagePath": "staticwebassets/img/portfolio.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/webpage-1.png",
+      "PackagePath": "staticwebassets/img/webpage-1.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/webpage-2.png",
+      "PackagePath": "staticwebassets/img/webpage-2.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/webpage-3.png",
+      "PackagePath": "staticwebassets/img/webpage-3.png"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/img/wp1904055-developer-wallpapers.jpg",
+      "PackagePath": "staticwebassets/img/wp1904055-developer-wallpapers.jpg"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Portfolio.props",
+      "PackagePath": "build\\Portfolio.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Portfolio.props",
+      "PackagePath": "buildMultiTargeting\\Portfolio.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Portfolio.props",
+      "PackagePath": "buildTransitive\\Portfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

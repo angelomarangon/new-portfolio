@@ -1,0 +1,144 @@
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+
+<div id="habilidades" class="py-5" style="margin-top: -105px">
+    <div class="container">
+        <div class="row justify-content-center g-4">
+
+            <!-- Back-end -->
+            <div class="col-12 col-md-6 animate-card-left habilidades bg-white p-5" style="border-radius: 15px 0 0 15px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); min-height: 600px;">
+                <div class="text-center mb-4">
+                    <i class="bi bi-hdd-fill display-4 text-primary mb-2"></i>
+                    <h3 class="fw-bold">Back-end</h3>
+                    <p class="text-muted">
+                        @Localizer["subtituloBack"]
+                    </p>
+                </div>
+
+                <p class="badge bg-primary-subtle text-primary fs-6 fw-semibold mb-3 px-3 py-2">Stack</p>
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">C#</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">.NET</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">Node</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">Express</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">TypeScript</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">SQL Server</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">PostgreSQL</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">MySQL</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">SQLite</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">MongoDB</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">Docker</span>
+                </div>
+
+                <p class="badge bg-primary-subtle text-primary fs-6 fw-semibold mb-3 px-3 py-2">@Localizer["experiencia"]</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">APIs RESTful</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">WebSockets</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">WebHooks</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Mongoose</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Prisma ORM</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">ASP.NET Core MVC</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Entity Framework</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Postman / Swagger</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">SOLID principles</span>
+                </div>
+            </div>
+
+            <!-- Front-end -->
+            <div class="col-12 col-md-6 animate-card-right habilidades bg-white p-5" style="border-radius: 0 15px 15px 0; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); min-height: 600px;">
+                <div class="text-center mb-4">
+                    <i class="bi bi-code-slash display-4 text-primary mb-2"></i>
+                    <h3 class="fw-bold">Front-end</h3>
+                    <p class="text-muted">
+                        @Localizer["subtituloFront"]
+                    </p>
+                </div>
+
+                <p class="badge bg-primary-subtle text-primary fs-6 fw-semibold mb-3 px-3 py-2">Stack</p>
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">HTML</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">CSS</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">JavaScript</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">React</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">Razor</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">Bootstrap</span>
+                    <span class="badge bg-light text-primary-emphasis px-3 py-2">Tailwind CSS</span>
+                </div>
+
+                <p class="badge bg-primary-subtle text-primary fs-6 fw-semibold mb-3 px-3 py-2">@Localizer["experiencia"]</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Markdown</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">React Hooks</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Landing Page</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">React Router</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Testing Library / Jest</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Single Page Application (SPA)</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Consumption of RESTful APIs</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">Multilingual Website</span>
+                    <span class="badge bg-secondary-subtle text-dark px-3 py-2">State Management</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+@* <div id="habilidades" style="margin-top: -105px"> *@
+@*     <div class="row justify-content-md-center text-center"> *@
+@*         <div class="col col-3 bg-white pt-2 habilidades animate-card-left" style="border-radius: 15px 0 0 15px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);"> *@
+@*             <i class="bi bi-hdd-fill"></i> *@
+@*             <h3>Back-end</h3> *@
+@*             <p>Desarrollo de APIs escalables, seguras y testeables, aplicando buenas prácticas y arquitectura limpia para entornos de producción.</p> *@
+@* *@
+@*             <p class="text-primary cabecera"> *@
+@*                 Stack: *@
+@*             </p> *@
+@*             <p> *@
+@*                 C#, ASP.NET Core, Node.js, TypeScript, SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Docker *@
+@*             </p> *@
+@*             <p class="text-primary cabecera"> *@
+@*                 Experiencia: *@
+@*             </p> *@
+@*             <ul> *@
+@*                 <li>APIs RESTful</li> *@
+@*                 <li>ASP.NET Core MVC</li> *@
+@*                 <li>Entity Framework</li> *@
+@*                 <li>WebSockets</li> *@
+@*                 <li>WebHooks</li> *@
+@*                 <li>Prisma ORM</li> *@
+@*                 <li>Mongoose</li> *@
+@*                 <li>SOLID principles</li> *@
+@*             </ul> *@
+@*         </div> *@
+@*         <div class="col col-3 bg-white pt-2 habilidades animate-card-right" style="border-radius: 0 15px 15px 0; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);"> *@
+@*             <i class="bi bi-code-slash"></i> *@
+@*             <h3>Front-end</h3> *@
+@* *@
+@*             <p>Construcción de interfaces dinámicas, accesibles y escalables, enfocadas en usabilidad y performance.</p> *@
+@* *@
+@*             <p class="text-primary cabecera"> *@
+@*                 Stack: *@
+@*             </p> *@
+@*             <p> *@
+@*                 JavaScript, React, Razor, HTML, CSS, Bootstrap, Tailwind CSS *@
+@*             </p> *@
+@*             <p class="text-primary cabecera"> *@
+@*                 Experiencia: *@
+@*             </p> *@
+@*             <ul> *@
+@*                 <li>React Hooks</li> *@
+@*                 <li>Testing Library / Jest</li> *@
+@*                 <li>JQuery</li> *@
+@*                 <li>React Router</li> *@
+@*                 <li>Single Page Application (SPA)</li> *@
+@*                 <li>Landing page</li> *@
+@*                 <li>Markdown</li> *@
+@*                 <li>Consumption of RESTful APIs</li> *@
+@*                 <li>Multilingual website using i18n</li> *@
+@*                 <li>State management using Context API, Redux or Zustand</li> *@
+@*             </ul> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@

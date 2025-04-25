@@ -1,0 +1,109 @@
+﻿@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+@{
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+    var culture = Context.Features.Get<IRequestCultureFeature>()?.RequestCulture.Culture.Name ?? "es-ES";
+    var shortCulture = culture.Substring(0, 2).ToUpper();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script type="importmap"></script>
+    <link rel="icon" type="image/png" href="~/favicon_/favicon-32x32.png" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark-custom px-3 py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold me-5" asp-controller="Home" asp-action="Index">Angelo Marangon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link @(currentAction == "Index" ? "active" : "")" asp-controller="Home"
+                               asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentAction == "Proyectos" ? "active" : "")" asp-controller="Home"
+                               asp-action="Proyectos">@Localizer["proyectos"]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(currentAction == "Contacto" ? "active" : "")" asp-controller="Home"
+                               asp-action="Contacto">@Localizer["contacto"]</a>
+                        </li>
+                    </ul>
+
+                    <div class="dropdown">
+                        <div style="width: 80px;"> <!-- ancho reducido -->
+                            <button class="btn btn-outline-light btn-sm dropdown-toggle px-2 py-1 d-flex justify-content-center align-items-center gap-1 w-100"
+                                    type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-translate"></i> <span>@shortCulture</span>
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm small w-100"
+                                style="min-width: 100%;" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item text-center" href="/Home/SetLanguage?culture=es-ES&returnUrl=@Context.Request.Path"><span class="badge bg-primary px-3 py-2">ES</span></a></li>
+                                <li><a class="dropdown-item text-center" href="/Home/SetLanguage?culture=en-US&returnUrl=@Context.Request.Path"><span class="badge bg-secondary px-3 py-2">EN</span></a></li>
+                                <li><a class="dropdown-item text-center" href="/Home/SetLanguage?culture=it-IT&returnUrl=@Context.Request.Path"><span class="badge bg-success px-3 py-2">IT</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid gx-0">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer-custom mt-auto py-4 text-white">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="mb-2 mb-md-0">© 2025 - Angelo Marangon. @Localizer["derechosReservados"]</p>
+
+            <div class="d-flex gap-3">
+                <a href="https://github.com/angelomarangon" target="_blank" class="text-white" title="GitHub">
+                    <i class="bi bi-github fs-5"></i>
+                </a>
+                <a href="https://linkedin.com/in/angelomarangon" target="_blank" class="text-white" title="LinkedIn">
+                    <i class="bi bi-linkedin fs-5"></i>
+                </a>
+                <a asp-controller="Home" asp-action="Contacto" class="text-white" title="Email">
+                    <i class="bi bi-envelope-fill fs-5"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <partial name="_CVModal" />
+</body>
+
+</html>

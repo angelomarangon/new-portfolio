@@ -1,0 +1,96 @@
+@using Microsoft.Extensions.Localization
+
+@model IEnumerable<Proyecto>
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+
+@if (Model is not null)
+{
+    <div class="container pb-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var proyecto in Model)
+            {
+                <div class="col" data-aos="fade-up">
+                    <div class="card-proyecto h-100 d-flex flex-column justify-content-between">
+                        <img src="@proyecto.ImagenURL" class="card-img-top" alt="Imagen del proyecto @proyecto.Titulo"/>
+
+                        <div class="card-body">
+                            <h5 class="fw-semibold">@proyecto.Titulo</h5>
+                            <hr class="my-3 text-muted opacity-25" />
+
+                            @if (proyecto.Tecnologias != null && proyecto.Tecnologias.Any())
+                            {
+                                <div class="d-flex flex-wrap gap-2 mt-3">
+                                    @foreach (var tech in proyecto.Tecnologias)
+                                    {
+                                        <span class="badge bg-light text-dark px-3 py-2 d-flex align-items-center">
+                                            <i class="@GetIconClass(tech) me-2"></i> @tech
+                                        </span>
+                                    }
+                                </div>
+                            }
+                        </div>
+
+                        <div class="card-footer bg-white border-top-0">
+                            <a class="btn btn-primary w-100" href="@proyecto.Link" target="_blank" rel="noopener noreferrer">
+                                @Localizer["visitar"]
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+@functions {
+    public string GetIconClass(string tech)
+    {
+        return tech.ToLower() switch
+        {
+            "react" => "bi bi-lightning",
+            "javascript" => "bi bi-filetype-js",
+            "html" => "bi bi-filetype-html",
+            "css" => "bi bi-filetype-css",
+            "tailwind css" => "bi bi-wind",
+            "bootstrap" => "bi bi-bootstrap",
+            "node" or "node.js" => "bi bi-node-plus-fill",
+            "express" => "bi bi-terminal",
+            "c#" => "bi bi-filetype-cs",
+            "sql server" or "postgresql" or "mysql" => "bi bi-database",
+            "typescript" => "bi bi-code-square",
+            "docker" => "bi bi-box-seam",
+            _ => "bi bi-code-slash"
+        };
+    }
+}
+
+
+
+
+
+@* @model IEnumerable<Proyecto> *@
+@* *@
+@* @if (Model is not null) *@
+@* { *@
+@*     <div class="container pb-5"> *@
+@*         <div class="row row-cols-1 row-cols-md-3 g-4"> *@
+@*              *@
+@*             @foreach (var proyecto in Model) *@
+@*             { *@
+@*                 <div class="col" data-aos="fade-up"> *@
+@*                     <div class="card-proyecto h-100"> *@
+@*                         <img src="@proyecto.ImagenURL" class="card-img-top" alt="Imagen del proyecto @proyecto.Titulo"/> *@
+@*                         <div class="card-body"> *@
+@*                             <h5>@proyecto.Titulo</h5> *@
+@*                             <p>@proyecto.Descripcion</p> *@
+@*                         </div> *@
+@*                         <div class="card-footer bg-white border-top-0"> *@
+@*                             <a class="btn btn-primary" href="@proyecto.Link" target="_blank" rel="noopener noreferrer">Visitar</a> *@
+@*                         </div> *@
+@*                     </div> *@
+@*                 </div> *@
+@*             } *@
+@*         </div> *@
+@*     </div> *@
+@* } *@

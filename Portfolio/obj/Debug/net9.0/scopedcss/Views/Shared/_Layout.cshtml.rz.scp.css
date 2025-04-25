@@ -1,0 +1,152 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Fondo de navbar */
+.bg-dark-custom[b-8rfbip2w04] {
+  background-color: #121618;
+}
+
+/* Marca (nombre/logo) */
+.navbar-brand[b-8rfbip2w04] {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #0C6DFD; /* sin !important */
+}
+
+/* Enlaces de navegación */
+.navbar-nav .nav-link[b-8rfbip2w04] {
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Subrayado animado */
+.navbar-nav .nav-link[b-8rfbip2w04]::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #0C6DFD;
+  transition: width 0.4s ease;
+}
+
+/* Hover en link */
+.navbar-nav .nav-link:hover[b-8rfbip2w04] {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover[b-8rfbip2w04]::after {
+  width: 100%;
+}
+
+/* Link activo */
+.navbar-nav .nav-link.active[b-8rfbip2w04] {
+  color: #0C6DFD;
+}
+
+.navbar-nav .nav-link.active[b-8rfbip2w04]::after {
+  width: 100%;
+}
+
+.btn-outline-light[b-8rfbip2w04] {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-outline-light:hover[b-8rfbip2w04] {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-light[b-8rfbip2w04] {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/**/
+/*.navbar-brand {*/
+/*  font-weight: 800;*/
+/*  font-size: 1.3rem;*/
+/*  color: #0C6DFD !important;*/
+/*}*/
+
+/*a.navbar-brand {*/
+/*  white-space: normal;*/
+/*  text-align: center;*/
+/*  word-break: break-all;*/
+/*}*/
+
+
+/*.nav-link {*/
+/*  position: relative;*/
+/*  color: rgba(255, 255, 255, 0.7);*/
+/*  transition: color 0.3s ease;*/
+/*}*/
+
+/*.nav-link::after {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  bottom: -4px;*/
+/*  width: 0%;*/
+/*  height: 2px;*/
+/*  background-color: #0C6DFD;*/
+/*  transition: width 0.4s ease;*/
+/*}*/
+
+/*.nav-link:hover {*/
+/*  color: #fff;*/
+/*}*/
+
+/*.nav-link:hover::after {*/
+/*  width: 100%;*/
+/*}*/
+
+/*.nav-link.active {*/
+/*  color: #0C6DFD !important;*/
+/*}*/
+
+/*.nav-link.active::after {*/
+/*  width: 100%;*/
+/*}*/
+
+.btn-primary[b-8rfbip2w04] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-8rfbip2w04], .nav-pills .show > .nav-link[b-8rfbip2w04] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-8rfbip2w04] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-8rfbip2w04] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-8rfbip2w04] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-8rfbip2w04] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-8rfbip2w04] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

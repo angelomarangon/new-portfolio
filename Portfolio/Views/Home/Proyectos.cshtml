@@ -1,0 +1,33 @@
+@using Microsoft.Extensions.Localization
+
+@model IEnumerable<Proyecto>
+@inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
+
+@{
+    ViewData["Title"] = "Proyectos";
+}
+
+<section class="proyectos-section position-relative overflow-hidden">
+    <div class="animated-background"></div>
+    <div class="animated-balls-container">
+        <div class="ball1 ball"></div>
+        <div class="ball2 ball"></div>
+        <div class="ball3 ball"></div>
+        <div class="ball4 ball"></div>
+        <div class="ball5 ball"></div>
+        <div class="ball6 ball"></div>
+        <div class="ball7 ball"></div>
+        <div class="ball8 ball"></div>
+    </div>
+
+    <div class="container my-5 position-relative" style="z-index: 99;">
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bold text-primary fade-in-title text-uppercase">@Localizer["misProyectos"]</h1>
+            <p class="lead text-secondary fade-in-subtitle">@Localizer["todosLosProyectos"]</p>
+        </div>
+    </div>
+
+    
+    <partial name="_ListadoProyectos" model="Model" />
+
+</section>

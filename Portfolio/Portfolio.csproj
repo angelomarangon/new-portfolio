@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>c2b60be2-7107-42d4-83c8-a0b4c53dc7ce</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="wwwroot\cv\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\SharedResource.es-ES.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResource.es-ES.Designer.cs</LastGenOutput>
+        <DependentUpon>SharedResource.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResource.en-US.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResource.en-US.Designer.cs</LastGenOutput>
+        <DependentUpon>SharedResource.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResource.it-IT.resx">
+        <DependentUpon>SharedResource.cs</DependentUpon>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\SharedResource.es-ES.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SharedResource.es-ES.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\SharedResource.en-US.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SharedResource.en-US.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

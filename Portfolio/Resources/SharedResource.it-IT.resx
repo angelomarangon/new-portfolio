@@ -1,0 +1,120 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="bienvenido" xml:space="preserve">
+        <value>Benvenuto</value>
+    </data>
+    <data name="descargaCv" xml:space="preserve">
+        <value>Scarica il CV</value>
+    </data>
+    <data name="seleccionIdioma" xml:space="preserve">
+        <value>Seleziona la lingua del CV
+</value>
+    </data>
+    <data name="cerrar" xml:space="preserve">
+        <value>chiudi</value>
+    </data>
+    <data name="tituloBienvenida" xml:space="preserve">
+        <value>Ti do il benvenuto nel mio portfolio
+</value>
+    </data>
+    <data name="tituloPrincipal" xml:space="preserve">
+        <value>Sviluppatore Full-Stack specializzato in tecnologie JavaScript e .NET
+</value>
+    </data>
+    <data name="trabajoReciente" xml:space="preserve">
+        <value>I miei lavori recenti
+</value>
+    </data>
+    <data name="visitar" xml:space="preserve">
+        <value>Visita</value>
+    </data>
+    <data name="proyectos" xml:space="preserve">
+        <value>Progetti</value>
+    </data>
+    <data name="derechosReservados" xml:space="preserve">
+        <value>Tutti i diritti riservati.
+</value>
+    </data>
+    <data name="misProyectos" xml:space="preserve">
+        <value>I miei progetti
+</value>
+    </data>
+    <data name="contacto" xml:space="preserve">
+        <value>Contatto</value>
+    </data>
+    <data name="todosLosProyectos" xml:space="preserve">
+        <value>Qui troverai tutti i progetti a cui ho lavorato.
+</value>
+    </data>
+    <data name="hablamos?" xml:space="preserve">
+        <value>Parliamo?
+</value>
+    </data>
+    <data name="completaElFormulario" xml:space="preserve">
+        <value>Compila il modulo e ti contatterò il prima possibile.
+</value>
+    </data>
+    <data name="enviar" xml:space="preserve">
+        <value>Invia</value>
+    </data>
+    <data name="mensaje" xml:space="preserve">
+        <value>Messaggio</value>
+    </data>
+    <data name="nombre" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="graciasPorMensaje" xml:space="preserve">
+        <value>Grazie per il tuo messaggio!
+</value>
+    </data>
+    <data name="mePondreEnContacto" xml:space="preserve">
+        <value>Ti contatterò il prima possibile. Grazie per la fiducia!
+</value>
+    </data>
+    <data name="volverInicio" xml:space="preserve">
+        <value>Torna a home</value>
+    </data>
+    <data name="subtituloBienvenida" xml:space="preserve">
+        <value>Sono uno sviluppatore full-stack junior con una grande passione per la tecnologia e la sua continua evoluzione. Mi considero una persona curiosa, adattabile e con una forte capacità di apprendimento, sempre alla ricerca di nuove sfide per migliorare le mie competenze e offrire soluzioni innovative.
+
+</value>
+    </data>
+    <data name="subtituloFront" xml:space="preserve">
+        <value>Costruzione di interfacce dinamiche, accessibili e scalabili, focalizzate sull’usabilità e le prestazioni.
+
+</value>
+    </data>
+    <data name="subtituloBack" xml:space="preserve">
+        <value>Sviluppo di API scalabili, sicure e testabili, applicando buone pratiche e architettura pulita per ambienti di produzione.
+
+</value>
+    </data>
+    <data name="experiencia" xml:space="preserve">
+        <value>Esperienza</value>
+    </data>
+    <data name="algunosTrabajos" xml:space="preserve">
+        <value>Qui puoi vedere alcuni dei miei ultimi lavori.
+</value>
+    </data>
+    <data name="escribiMensaje" xml:space="preserve">
+        <value>Scrivi il tuo messaggio...
+
+</value>
+    </data>
+    <data name="tuNombre" xml:space="preserve">
+        <value>Il tuo nome
+
+</value>
+    </data>
+</root>

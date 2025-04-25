@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Portfolio/1.0.0": {
+        "runtime": {
+          "Portfolio.dll": {}
+        },
+        "resources": {
+          "en-US/Portfolio.resources.dll": {
+            "locale": "en-US"
+          },
+          "es-ES/Portfolio.resources.dll": {
+            "locale": "es-ES"
+          },
+          "it-IT/Portfolio.resources.dll": {
+            "locale": "it-IT"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Portfolio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

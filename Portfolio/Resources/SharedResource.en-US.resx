@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="bienvenido" xml:space="preserve">
+        <value>Welcome</value>
+    </data>
+    <data name="descargaCv" xml:space="preserve">
+        <value>Download CV</value>
+    </data>
+    <data name="seleccionIdioma" xml:space="preserve">
+        <value>Select CV language	</value>
+    </data>
+    <data name="cerrar" xml:space="preserve">
+        <value>close</value>
+    </data>
+    <data name="tituloBienvenida" xml:space="preserve">
+        <value>I welcome you to my portfolio	</value>
+    </data>
+    <data name="tituloPrincipal" xml:space="preserve">
+        <value>Full-Stack Developer specialized in JavaScript and .NET technologies	</value>
+    </data>
+    <data name="trabajoReciente" xml:space="preserve">
+        <value>My recent work	</value>
+    </data>
+    <data name="visitar" xml:space="preserve">
+        <value>Visit</value>
+    </data>
+    <data name="proyectos" xml:space="preserve">
+        <value>Projects</value>
+    </data>
+    <data name="derechosReservados" xml:space="preserve">
+        <value>All rights reserved.	</value>
+    </data>
+    <data name="misProyectos" xml:space="preserve">
+        <value>My projects	</value>
+    </data>
+    <data name="contacto" xml:space="preserve">
+        <value>Contact</value>
+    </data>
+    <data name="todosLosProyectos" xml:space="preserve">
+        <value>Here you’ll find all the projects I’ve worked on.	</value>
+    </data>
+    <data name="hablamos?" xml:space="preserve">
+        <value>Shall we talk?	</value>
+    </data>
+    <data name="completaElFormulario" xml:space="preserve">
+        <value>Fill out the form and I will get in touch as soon as possible.	</value>
+    </data>
+    <data name="enviar" xml:space="preserve">
+        <value>Send</value>
+    </data>
+    <data name="nombre" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="mensaje" xml:space="preserve">
+        <value>Message</value>
+    </data>
+    <data name="graciasPorMensaje" xml:space="preserve">
+        <value>Thank you for your message!	</value>
+    </data>
+    <data name="mePondreEnContacto" xml:space="preserve">
+        <value>I’ll get back to you as soon as possible. Thank you for your trust!	</value>
+    </data>
+    <data name="volverInicio" xml:space="preserve">
+        <value>Back to home</value>
+    </data>
+    <data name="subtituloBienvenida" xml:space="preserve">
+        <value>I’m a junior full-stack developer with a strong passion for technology and its constant evolution. I consider myself a curious, adaptable person with a solid learning ability, always seeking new challenges to enhance my skills and deliver innovative solutions.
+
+</value>
+    </data>
+    <data name="subtituloBack" xml:space="preserve">
+        <value>Development of scalable, secure, and testable APIs, applying best practices and clean architecture for production environments.
+
+</value>
+    </data>
+    <data name="subtituloFront" xml:space="preserve">
+        <value>Building dynamic, accessible, and scalable interfaces, focused on usability and performance.
+
+</value>
+    </data>
+    <data name="experiencia" xml:space="preserve">
+        <value>Experience</value>
+    </data>
+    <data name="algunosTrabajos" xml:space="preserve">
+        <value>Here you can see some of my latest projects.	</value>
+    </data>
+    <data name="escribiMensaje" xml:space="preserve">
+        <value>Write your message...
+
+</value>
+    </data>
+    <data name="tuNombre" xml:space="preserve">
+        <value>Your name
+
+</value>
+    </data>
+</root>

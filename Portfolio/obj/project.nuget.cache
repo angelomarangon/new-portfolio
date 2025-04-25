@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "C7JXaNe3KRM=",
+  "dgSpecHash": "7thFed5x1Fg=",
   "success": true,
   "projectFilePath": "/Users/angelomarangon/Desktop/CSharp/Portfolio/Portfolio/Portfolio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/angelomarangon/.nuget/packages/microsoft.netcore.app.ref/8.0.14/microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/angelomarangon/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/angelomarangon/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.14/microsoft.netcore.app.host.osx-arm64.8.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

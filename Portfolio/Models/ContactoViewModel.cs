@@ -5,11 +5,13 @@ namespace Portfolio.Models;
 
 public class ContactoViewModel
 {
-    [Required]
+    [Required(ErrorMessage = "Name field is required")]
     public string Nombre { get; set; }
-    [Required]
+    
+    [Required(ErrorMessage = "Email field is required")]
     [EmailAddress]
     public string Email { get; set; }
-    [Required]
+    
+    [Required(ErrorMessage = "Message field is required")]
     public string Mensaje { get; set; }
 }

@@ -1,4 +1,5 @@
 @using Microsoft.Extensions.Localization
+@model ContactoViewModel
 
 @inject IStringLocalizer<Portfolio.Resources.SharedResource> Localizer
 @{
@@ -30,29 +31,33 @@
                 <form asp-controller="Home" asp-action="Contacto">
                     <!-- Campo Nombre -->
                     <div class="mb-3">
-                        <label for="nombre" class="form-label">@Localizer["nombre"]</label>
+                        <label asp-for="Nombre" class="form-label">@Localizer["nombre"]</label>
                         <div class="input-group">
                             <span class="input-group-text"><i class="bi bi-person-fill text-primary"></i></span>
-                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="@Localizer["tuNombre"]" required />
+                            <input type="text" class="form-control" asp-for="Nombre" placeholder="@Localizer["tuNombre"]" />
                         </div>
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
                     </div>
 
                     <!-- Campo Email -->
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
+                        <label asp-for="Email" class="form-label">Email</label>
                         <div class="input-group">
                             <span class="input-group-text"><i class="bi bi-envelope-fill text-primary"></i></span>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@ejemplo.com" required/>
+                            <input type="email" class="form-control" asp-for="Email" placeholder="ejemplo@ejemplo.com"/>
                         </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
+                
 
                     <!-- Campo Mensaje -->
                     <div class="mb-3">
-                        <label for="mensaje" class="form-label">@Localizer["mensaje"]</label>
+                        <label asp-for="Mensaje" class="form-label">@Localizer["mensaje"]</label>
                         <div class="input-group">
                             <span class="input-group-text align-top"><i class="bi bi-chat-dots-fill text-primary"></i></span>
-                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="@Localizer["escribiMensaje"]" required ></textarea>
+                            <textarea class="form-control" asp-for="Mensaje" rows="4" placeholder="@Localizer["escribiMensaje"]" ></textarea>
                         </div>
+                        <span asp-validation-for="Mensaje" class="text-danger"></span>
                     </div>
 
                     <!-- Botón -->
@@ -69,24 +74,6 @@
 
 
 
-
-
-
-
-@* <h1>Formulario de contacto</h1> *@
-@* *@
-@* <form asp-controller="Home" asp-action="Contacto"> *@
-@*     <div class="mb-3"> *@
-@*         <label for="nombre" class="form-label">Nombre</label> *@
-@*         <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej: Pietro" /> *@
-@*     </div> *@
-@*     <div class="mb-3"> *@
-@*         <label for="email" class="form-label">Email</label> *@
-@*         <input type="email" class="form-control" id="email" name="email" placeholder="Ej: ejemplo@ejemplo.com" /> *@
-@*     </div> *@
-@*     <div class="mb-3"> *@
-@*         <label for="mensaje" class="form-label">Mensaje</label> *@
-@*         <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea> *@
-@*     </div> *@
-@*     <button type="submit" class="btn btn-primary">Enviar</button> *@
-@* </form> *@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

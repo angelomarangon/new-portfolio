@@ -28,6 +28,8 @@ localizationOptions.ApplyCurrentCultureToResponseHeaders = true;
 
 var app = builder.Build();
 
+app.UseHttpsRedirection();
+
 app.UseRequestLocalization(localizationOptions);
 
 // Configure the HTTP request pipeline.

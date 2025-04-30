@@ -1,0 +1,33 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+.idea/
+.vscode/
+.DS_Store
+
+# ASP.NET Core
+node_modules/
+
+# .NET core SDK files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Configuration files
+appsettings.Development.json
+appsettings.Production.json
+appsettings.json
+
+# Publish output
+publish/
+
+# Local database files
+*.db
+*.mdf
+*.ldf
+
+# DotNet Core secrets
+secrets/

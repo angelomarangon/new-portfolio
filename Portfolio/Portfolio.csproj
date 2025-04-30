@@ -40,4 +40,24 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\about.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\android-chrome-192x192.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\android-chrome-512x512.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\apple-touch-icon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\favicon-16x16.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\favicon-32x32.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\favicon.ico" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon_io\site.webmanifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="wwwroot\img\164645.jpg" />
+      <Content Remove="wwwroot\img\anmamedical-miperfil.png" />
+      <Content Remove="wwwroot\img\cv-2.png" />
+      <Content Remove="wwwroot\img\gamer-2.png" />
+      <Content Remove="wwwroot\img\webpage-2.png" />
+      <Content Remove="wwwroot\img\webpage-3.png" />
+    </ItemGroup>
+
 </Project>

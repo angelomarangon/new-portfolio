@@ -57,9 +57,12 @@
             "node" or "node.js" => "bi bi-node-plus-fill",
             "express" => "bi bi-terminal",
             "c#" => "bi bi-filetype-cs",
-            "sql server" or "postgresql" or "mysql" => "bi bi-database",
             "typescript" => "bi bi-code-square",
+            "sql server" or "postgresql" or "mysql" => "bi bi-database",
             "docker" => "bi bi-box-seam",
+            "dapper" => "bi bi-diagram-3",
+            "azure" => "bi bi-cloud-fill",
+            "razor" => "bi bi-code",
             _ => "bi bi-code-slash"
         };
     }
@@ -68,29 +71,3 @@
 
 
 
-
-@* @model IEnumerable<Proyecto> *@
-@* *@
-@* @if (Model is not null) *@
-@* { *@
-@*     <div class="container pb-5"> *@
-@*         <div class="row row-cols-1 row-cols-md-3 g-4"> *@
-@*              *@
-@*             @foreach (var proyecto in Model) *@
-@*             { *@
-@*                 <div class="col" data-aos="fade-up"> *@
-@*                     <div class="card-proyecto h-100"> *@
-@*                         <img src="@proyecto.ImagenURL" class="card-img-top" alt="Imagen del proyecto @proyecto.Titulo"/> *@
-@*                         <div class="card-body"> *@
-@*                             <h5>@proyecto.Titulo</h5> *@
-@*                             <p>@proyecto.Descripcion</p> *@
-@*                         </div> *@
-@*                         <div class="card-footer bg-white border-top-0"> *@
-@*                             <a class="btn btn-primary" href="@proyecto.Link" target="_blank" rel="noopener noreferrer">Visitar</a> *@
-@*                         </div> *@
-@*                     </div> *@
-@*                 </div> *@
-@*             } *@
-@*         </div> *@
-@*     </div> *@
-@* } *@

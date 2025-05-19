@@ -22,6 +22,13 @@ public class RepositorioProyectos : IRepositorioProyectos
             },
             new Proyecto
             {
+                Titulo = "Your Personal Finance Assistant",
+                Tecnologias = ["C#", ".NET", "PostgreSQL", "Dapper", "Azure", "Razor", "Bootstrap", "HTML", "CSS", "Javascript",],
+                Link = "https://budgetmanagement-gxhpbnhha9eqcca3.westeurope-01.azurewebsites.net/",
+                ImagenURL = "/img/login.png"
+            },
+            new Proyecto
+            {
                 Titulo = "Landing Page for Marketing",
                 Tecnologias = ["HTML", "CSS", "Javascript", "Tailwind CSS"],
                 Link = "https://webpage-angelomarangon.vercel.app/",
